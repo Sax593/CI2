@@ -26,5 +26,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: SAX59/quete1902:latest
+          tags: sax59/quete1902:latest
           context: "{{defaultContext}}:client"
